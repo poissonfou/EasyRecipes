@@ -1,0 +1,97 @@
+.secondary-bg-color {
+    background-color: #C09578;
+}
+
+.link-secondary{
+    color: rgb(25, 221, 25);
+}
+
+.link-secondary:hover{
+    color: rgb(22, 83, 22);;
+}
+
+.logo{
+    width: 5rem;
+}
+
+.brand-name{
+    margin-left: -30rem;
+}
+
+form{
+    border: solid 1px rgb(211, 143, 16);
+    border-radius: 5px;
+}
+
+.input{
+    border: none;
+}
+
+.input::placeholder{
+    padding-left: 0.5rem;
+}
+
+.input:focus{
+    box-shadow: none;
+}
+
+.icon{
+    font-size: 1.4rem;
+    margin-top: 0.2rem;
+    padding-left: 0.5rem;
+}
+
+.search{
+    border-radius: 0px;
+}
+
+.search:hover{
+    background-color: rgb(211, 120, 16);
+}
+
+@media (max-width: 768px){
+    .brand-name{
+        display: none;
+    }
+}
+
+.carousel-item img{
+    object-fit: fill;
+}
+
+.carousel-caption{
+    background-color: rgb(5, 148, 5);
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    border-radius: 0px;
+    border-color: rgb(211, 120, 16);
+}
+
+.card img{
+    border-radius: 0px;
+    width: 17.5rem;
+    height: 15rem;
+}
+
+#row-news .col-6{
+    padding: 0;
+}
+
+#footer{
+    background-color: rgb(5, 148, 5);
+    height: 8rem;
+}
+
+#footer .container-sm p,
+#footer .container-sm a{
+    height: 1rem;
+}
+
+#footer .container-sm a:hover{
+    cursor: pointer;
+}
