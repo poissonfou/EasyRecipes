@@ -58,6 +58,37 @@ form{
     .brand-name{
         display: none;
     }
+
+    .desc{
+        display: none;
+    }
+
+    #row-news .col-sm-6{
+       padding: 0;
+    }
+
+    #row-news .col-sm-6 .card{
+        border-radius: 0;
+        border-color: rgb(5, 148, 5);
+    }
+
+    .card-img-top{
+       border-radius: 0;
+    }
+
+    #second-row .col-6 .card{
+        margin-top: -11rem;
+    }
+
+    #second-row .col-12{
+        padding: 0;
+    }
+
+    #second-row .col-12 .card img{
+        height: 19rem;
+        object-fit: cover;
+    }
+
 }
 
 .carousel-item img{
@@ -74,10 +105,18 @@ a{
     color:black;
 }
 
+/*NEWS SECTION*/
+
 #row-news .col-6 .card{
     border-radius: 0px;
-    border-color: rgb(211, 120, 16);
+    border-color: rgb(5, 148, 5);
 }
+
+#second-row .col-12 .card{
+    border-radius: 0;
+    border-color: rgb(5, 148, 5);
+}
+
 
 #row-news .col-6 .card img{
     border-radius: 0px;
@@ -88,6 +127,95 @@ a{
 #row-news .col-6{
     padding: 0;
 }
+
+#row-news .col-sm-6 .card{
+    height: 40rem;
+}
+
+#row-news .col-sm-6 .card img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+span{
+    font-style: italic;
+}
+.desc{
+    font-size: 1.2rem;
+}
+
+.card-category{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: rgb(5, 148, 5);
+}
+
+@media (min-width: 768px) {
+   #news-section{
+    margin-left: 13rem;
+    width: 72rem;
+   }
+
+   #news-section h1{
+    margin-left: -1rem;
+   }
+
+   #news-section #row-news  .col-12 .card{
+    border-radius: 0;
+    border-color: rgb(5, 148, 5);
+    margin-left: -0.8rem;
+   }
+
+   #news-section #row-news  .col-12 .card img{
+    border-radius: 0;
+   }
+
+    #second-row .col-6 .card {
+        height: 13.34rem;
+        width: 20rem;
+    }
+      
+    #second-row .col-6 .card .card-body .h1 {
+        font-size: 1.2rem;
+    }
+
+    #second-row .col-6 .card .card-body{
+        padding-top: 0.2rem;
+    }
+
+    #second-row .col-6 .card img{
+        width: 19.9rem;
+        height: 8rem;
+        object-fit: cover;
+    }
+
+    #second-row .col-12{
+        padding-left: 0.8rem;
+    }
+
+    #second-row .col-12 .card {
+        height: 13.34rem;
+        width: 20rem;
+    }
+
+    #second-row .col-12 .card .card-body .h1 {
+        font-size: 1.2rem;
+    }
+
+    #second-row .col-12 .card .card-body{
+        padding-top: 0.2rem;
+    }
+
+    #second-row .col-12 .card img{
+        width: 19.9rem;
+        height: 8rem;
+        object-fit: cover;
+    }
+}
+
+/*RECIPES*/
 
 #row-recepies .col-12{
     width: 30rem;
@@ -117,6 +245,7 @@ a{
     }
 }
 
+/*Footer*/
 
 #footer{
     background-color: rgb(5, 148, 5);
