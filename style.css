@@ -1,262 +1,140 @@
 .secondary-bg-color {
-    background-color: #C09578;
+  background-color: #c09578;
 }
 
-.link-secondary{
-    color: rgb(25, 221, 25);
+.link-secondary {
+  color: rgb(25, 221, 25);
 }
 
-.link-secondary:hover{
-    color: rgb(22, 83, 22);
-    cursor: pointer;
+.link-secondary:hover {
+  color: rgb(22, 83, 22);
+  cursor: pointer;
 }
 
-body{
-    background-image: linear-gradient(to top,rgb(211, 143, 16), rgb(255, 255, 255));
+#website-name {
+  font-family: "Geologica", sans-serif;
+  font-size: 2rem;
+  color: rgb(22, 83, 22);
 }
 
-.logo{
-    width: 5rem;
+@media (min-width: 992px) {
+  #website-name {
+    margin-left: -17rem;
+  }
 }
 
-.brand-name{
-    margin-left: -30rem;
+@media (min-width: 1200px) {
+  #website-name {
+    margin-left: -25rem;
+  }
 }
 
-form{
-    border: solid 1px rgb(211, 143, 16);
-    border-radius: 5px;
+.logo {
+  width: 5rem;
 }
 
-.input{
-    border: none;
+form {
+  border: solid 1px rgb(211, 143, 16);
+  border-radius: 5px;
 }
 
-.input::placeholder{
-    padding-left: 0.5rem;
+.input {
+  border: none;
 }
 
-.input:focus{
-    box-shadow: none;
+.input::placeholder {
+  padding-left: 0.5rem;
 }
 
-.icon{
-    font-size: 1.4rem;
-    margin-top: 0.2rem;
-    padding-left: 0.5rem;
+.input:focus {
+  box-shadow: none;
 }
 
-.search{
-    border-radius: 0px;
+.icon {
+  font-size: 1.4rem;
+  margin-top: 0.2rem;
+  padding-left: 0.5rem;
 }
 
-.search:hover{
-    background-color: rgb(211, 120, 16);
+.search {
+  border-radius: 0px;
 }
 
-@media (max-width: 768px){
-    .brand-name{
-        display: none;
-    }
-
-    .desc{
-        display: none;
-    }
-
-    #row-news .col-sm-6{
-       padding: 0;
-    }
-
-    #row-news .col-sm-6 .card{
-        border-radius: 0;
-        border-color: rgb(5, 148, 5);
-    }
-
-    .card-img-top{
-       border-radius: 0;
-    }
-
-    #second-row .col-6 .card{
-        margin-top: -11rem;
-    }
-
-    #second-row .col-12{
-        padding: 0;
-    }
-
-    #second-row .col-12 .card img{
-        height: 19rem;
-        object-fit: cover;
-    }
-
+.search:hover {
+  background-color: rgb(5, 148, 5);
 }
 
-.carousel-item img{
-    height: 34rem;
-    object-fit: cover;
+.carousel-item img {
+  height: 34rem;
+  object-fit: cover;
 }
 
-.carousel-caption{
-    background-color: rgb(5, 148, 5);
+.carousel-caption {
+  background-color: rgb(5, 148, 5);
 }
 
-a{
-    text-decoration: none;
-    color:black;
-}
-
-/*NEWS SECTION*/
-
-#row-news .col-6 .card{
-    border-radius: 0px;
-    border-color: rgb(5, 148, 5);
-}
-
-#second-row .col-12 .card{
-    border-radius: 0;
-    border-color: rgb(5, 148, 5);
-}
-
-
-#row-news .col-6 .card img{
-    border-radius: 0px;
-    width: 17.5rem;
-    height: 15rem;
-}
-
-#row-news .col-6{
-    padding: 0;
-}
-
-#row-news .col-sm-6 .card{
-    height: 40rem;
-}
-
-#row-news .col-sm-6 .card img{
-    width: 100%;
-    height: 20rem;
-    object-fit: cover;
-}
-
-span{
-    font-style: italic;
-}
-.desc{
-    font-size: 1.2rem;
-}
-
-.card-category{
-    padding: 0;
-    margin: 0;
-    font-weight: bold;
-    color: rgb(5, 148, 5);
-}
-
-@media (min-width: 768px) {
-   #news-section{
-    margin-left: 13rem;
-    width: 72rem;
-   }
-
-   #news-section h1{
-    margin-left: -1rem;
-   }
-
-   #news-section #row-news  .col-12 .card{
-    border-radius: 0;
-    border-color: rgb(5, 148, 5);
-    margin-left: -0.8rem;
-   }
-
-   #news-section #row-news  .col-12 .card img{
-    border-radius: 0;
-   }
-
-    #second-row .col-6 .card {
-        height: 13.34rem;
-        width: 20rem;
-    }
-      
-    #second-row .col-6 .card .card-body .h1 {
-        font-size: 1.2rem;
-    }
-
-    #second-row .col-6 .card .card-body{
-        padding-top: 0.2rem;
-    }
-
-    #second-row .col-6 .card img{
-        width: 19.9rem;
-        height: 8rem;
-        object-fit: cover;
-    }
-
-    #second-row .col-12{
-        padding-left: 0.8rem;
-    }
-
-    #second-row .col-12 .card {
-        height: 13.34rem;
-        width: 20rem;
-    }
-
-    #second-row .col-12 .card .card-body .h1 {
-        font-size: 1.2rem;
-    }
-
-    #second-row .col-12 .card .card-body{
-        padding-top: 0.2rem;
-    }
-
-    #second-row .col-12 .card img{
-        width: 19.9rem;
-        height: 8rem;
-        object-fit: cover;
-    }
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /*RECIPES*/
 
-#row-recepies .col-12{
-    width: 30rem;
-    margin-left: 2.7rem;
+#row-recepies .col-12 {
+  width: 30rem;
 }
 
-#row-recepies .col-12:hover{
-   cursor: pointer;
+@media (min-width: 768px) {
+  #row-recepies .col-12 {
+    margin-left: 7.5rem;
+  }
 }
 
-#row-recepies .col-12 .card{
-    border-color: rgb(5, 148, 5);
-    border-radius: 0px;
+@media (min-width: 992px) {
+  #row-recepies .col-12 {
+    margin-left: 15rem;
+  }
 }
 
-#row-recepies .col-12 .card img{
-    border-radius: 0px;
+@media (min-width: 1200px) {
+  #row-recepies .col-12 {
+    margin-left: 3.5rem;
+  }
+
+  #row-recepies .col-12 .card img {
+    height: 15rem;
+    object-fit: cover;
+  }
 }
 
-@media (min-width: 768px){
-    #row-recepies .col-12{
-        width: 20rem;
-    }
+#row-recepies .col-12:hover {
+  cursor: pointer;
+}
 
-    #row-recepies .col-12 .card img{
-        height: 10rem;
-    }
+#row-recepies .col-12 .card {
+  border-color: rgb(5, 148, 5);
+}
+
+.card-body {
+  background-color: rgb(5, 148, 5);
+}
+
+.card-body a {
+  color: white;
 }
 
 /*Footer*/
 
-#footer{
-    background-color: rgb(5, 148, 5);
-    height: 8rem;
+#footer {
+  background-color: rgb(5, 148, 5);
+  height: 8rem;
 }
 
 #footer .container-sm p,
-#footer .container-sm a{
-    height: 1rem;
+#footer .container-sm a {
+  height: 1rem;
 }
 
-#footer .container-sm a:hover{
-    cursor: pointer;
+#footer .container-sm a:hover {
+  cursor: pointer;
 }

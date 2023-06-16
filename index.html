@@ -12,6 +12,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>EasyRecipes</title>
 </head>
@@ -21,10 +24,10 @@
         <nav class="navbar navbar-expand-lg shadow">
             <div class="container">
                 <img src="./imgs/fav.png" alt="logo" class="logo">
-                <a href="#" class="navbar-brand brand-name">EasyRecepies</a>
+                <a href="#" class="navbar-brand brand-name" id="website-name">EasyRecepies</a>
 
                 <div class="navbar-items p-relative">
-                    <form class="d-flex d-flex-row">
+                    <form class="d-flex d-flex-row mt-3 ms-2">
                         <i class="bi bi-search icon"></i>
                         <input type="text" placeholder="Buscar" class="form-control me-2 p-absolut input"
                             aria-label="Search">
@@ -72,60 +75,6 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
-        </div>
-
-        <div class="container container-sm mt-5" id="news-section">
-            <h1>Notícias do mundo gastronômico</h1>
-            <div class="row" id="row-news">
-                <div class="col-12 col-sm-6">
-                    <div class="card">
-                        <img src="./imgs/res.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-category">Novidades</p>
-                            <a class="h1">Novo restaurante em São Paulo</a>
-                            <p class="card-text mb-1">Restaurante na Liberdade tras nova abordagem para a cozinha
-                                japonesa.</p>
-                            <p class="card-text desc mb-1">Comandado pela chef Marcela, o estabelecimento é uma
-                                combinação de culinária e arte, de clássico e novidades, oferecendo um tipo de
-                                experiência gastronômica ainda não vista em São Paulo.
-                            </p>
-                            <p class="card-text d-none d-md-block p-0">Por <span>Marcos Megoni</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="row" id="second-row">
-                        <div class="col-6 col-sm-12">
-                            <div class="card">
-                                <img src="./imgs/min.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-category mb-1">Saúde</p>
-                                    <a class="h1">MS atualiza leis sobre serviços alimentícios</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-sm-12">
-                            <div class="card">
-                                <img src="./imgs/carne.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-category mb-1">Escândalo</p>
-                                    <a class="h1">Restaurante serve carne com vermes</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="card">
-                                <img src="./imgs/econ.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-category mb-1">Negócios</p>
-                                    <a class="h1">Brasileiros começam a frequentar mais restaurantes</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
